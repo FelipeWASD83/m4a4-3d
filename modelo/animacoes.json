@@ -1,0 +1,39 @@
+{
+  "raiz": "m4a4",
+  "fps": 30,
+  "faixas": {
+    "repouso": {
+      "inicio": 1,
+      "quadros": 2,
+      "eventos": {}
+    },
+    "tiro": {
+      "inicio": 10,
+      "quadros": 4,
+      "eventos": {
+        "disparo": 2
+      }
+    },
+    "recarregar": {
+      "inicio": 20,
+      "quadros": 70,
+      "eventos": {
+        "pente_sai": 14,
+        "troca": 27,
+        "pente_entra": 44,
+        "alavanca": 55
+      }
+    }
+  },
+  "pecas": [
+    "ferrolho",
+    "alavanca",
+    "gatilho",
+    "pente",
+    "estojo_topo",
+    "bala_topo",
+    "botao_pente",
+    "clarao",
+    "estojo_ejetado"
+  ]
+}

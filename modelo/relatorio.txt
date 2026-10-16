@@ -1,0 +1,50 @@
+M4A4 3D: relatório
+
+superior                 190.0 x  29.0 x   46.5 mm   14554 triângulos  fechada
+defletor                   9.0 x   4.8 x   25.0 mm    1172 triângulos  fechada
+assistente                41.9 x  14.4 x   17.0 mm     480 triângulos  fechada
+tampa_janela              82.0 x   3.2 x   19.6 mm    1224 triângulos  fechada
+alca_mira                 40.0 x  33.5 x   36.5 mm    3380 triângulos  fechada
+inferior                 206.0 x  31.0 x   84.0 mm    5302 triângulos  fechada
+guarda_mato               64.2 x  12.4 x   35.7 mm    1340 triângulos  fechada
+pino_frente                5.2 x  32.4 x    5.2 mm     256 triângulos  fechada
+pino_tras                  5.2 x  28.2 x    5.2 mm     256 triângulos  fechada
+seletor                   26.1 x  30.5 x    8.4 mm    1428 triângulos  fechada
+retem_ferrolho            15.0 x   2.8 x   24.0 mm    1200 triângulos  fechada
+punho                     89.4 x  26.0 x  105.1 mm    1592 triângulos  fechada
+tubo                     198.0 x  29.0 x   29.0 mm     448 triângulos  fechada
+castelo                    9.0 x  35.6 x   35.6 mm     752 triângulos  fechada
+coronha                  193.0 x  36.0 x  126.7 mm    4372 triângulos  fechada
+soleira                   10.0 x  38.0 x  131.0 mm    1636 triângulos  fechada
+anel                      26.5 x  55.0 x   55.0 mm    1408 triângulos  fechada
+guarda_mao               166.0 x  49.0 x   63.0 mm   27892 triângulos  fechada
+capa_direita             154.0 x   5.2 x   28.0 mm    1224 triângulos  fechada
+capa_esquerda            154.0 x   5.2 x   28.0 mm    1224 triângulos  fechada
+cano                     363.5 x  20.0 x   20.0 mm     752 triângulos  fechada
+quebra_chamas             49.0 x  21.6 x   21.6 mm    2596 triângulos  fechada
+massa_mira                60.0 x  24.0 x   96.2 mm    4140 triângulos  fechada
+ferrolho                 185.5 x  24.6 x   24.6 mm     624 triângulos  fechada
+alavanca                 152.5 x  47.5 x    6.2 mm    2404 triângulos  fechada
+gatilho                   12.8 x   6.0 x   39.1 mm    1452 triângulos  fechada
+botao_pente                8.8 x   6.0 x    8.8 mm     192 triângulos  fechada
+pente                     85.3 x  26.4 x  183.6 mm    4344 triângulos  fechada
+estojo_topo               44.8 x   9.5 x    9.5 mm     656 triângulos  fechada
+bala_topo                 13.9 x   5.7 x    5.7 mm     320 triângulos  fechada
+
+Total: 32 peças, 88620 triângulos (sem contar as escondidas)
+Comprimento 841 mm, altura 267 mm, largura 58 mm
+Textura: polimero.png (cabo, coronha e capas do trilho), gerada por código; o resto é cor lisa.
+As peças se sobrepõem de propósito nas junções: cada uma é um sólido fechado, não uma malha única.
+
+Animações (30 qps): tiro 10 a 13, recarregar 20 a 89
+Eventos (quadro contado do começo da faixa): tiro: disparo 2; recarregar: pente_sai 14, troca 27, pente_entra 44, alavanca 55
+Cruzamentos entre peças (triângulos que se tocam; repouso -> no momento):
+  tiro, ferrolho atrás (quadro 11): nada novo
+  tiro, ferrolho voltando (quadro 12): nada novo
+  recarga, pente saindo (quadro 36): nada novo
+  recarga, pente caindo (quadro 39): nada novo
+  recarga, pente entrando (quadro 60): nada novo
+  recarga, pente no lugar (quadro 65): nada novo
+  recarga, alavanca atrás (quadro 72): nada novo
+  recarga, alavanca voltando (quadro 75): nada novo
+No repouso: botao_pente x inferior: 32
